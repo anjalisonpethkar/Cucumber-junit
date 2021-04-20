@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="42.806">
+<testcase classname="Login features" name="Test Login with Different Data" time="20.773">
+<failure message="expected:&lt;Welcome [Deep]&gt; but was:&lt;Welcome [Paul]&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given I am able to naviagte onto the login page.............................passed
+When I Enter the username as "Admin"........................................passed
+And I Enter the Password as "admin123"......................................passed
+And I Click on the Login button.............................................passed
+Then I should see the username as "Welcome Paul"............................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<Welcome [Deep]> but was:<Welcome [Paul]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at StepDefinition.Steps.i_should_see_the_username_as(Steps.java:55)
+	at ✽.I should see the username as "Welcome Paul"(file:///C:/Desktop_Backup/Anjali/FullStackTester/Cucumber-junitB10-master/Cucumber-junitB10-master/BDD-B10/src/test/resources/Login/Login.feature:27)
+]]></failure>
+</testcase>
+<testcase classname="Login features" name="Test Login with Different Data 2" time="21.707">
+<failure message="expected:&lt;Welcome [Deep]&gt; but was:&lt;Welcome [Paul]&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given I am able to naviagte onto the login page.............................passed
+When I Enter the username as "Admin"........................................passed
+And I Enter the Password as "admin123"......................................passed
+And I Click on the Login button.............................................passed
+Then I should see the username as "Welcome Paul"............................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<Welcome [Deep]> but was:<Welcome [Paul]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at StepDefinition.Steps.i_should_see_the_username_as(Steps.java:55)
+	at ✽.I should see the username as "Welcome Paul"(file:///C:/Desktop_Backup/Anjali/FullStackTester/Cucumber-junitB10-master/Cucumber-junitB10-master/BDD-B10/src/test/resources/Login/Login.feature:27)
+]]></failure>
+</testcase>
+</testsuite>
